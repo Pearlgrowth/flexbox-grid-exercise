@@ -1,0 +1,73 @@
+html{
+    background-color:aliceblue;
+}
+body,html{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+
+}
+.content{
+    background-color: white;
+    width:200px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: -30px 70px 1000px black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+#gimage{
+    width:100px;
+    height:100px;
+    display: flex;
+    margin-top: 100px;
+}
+img{
+    width:15px;
+    height: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+.search{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 20 px solid white;
+}
+#fb, #x, #ig{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#ranesh{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#x{
+    width: 70px;
+}
